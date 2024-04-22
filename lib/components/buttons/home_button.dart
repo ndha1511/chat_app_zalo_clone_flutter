@@ -16,7 +16,7 @@ class HomeButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 50.0,
-      width: 300,
+      width: double.infinity,
       decoration: BoxDecoration(
           gradient: color == null ? 
             LinearGradient(colors: [

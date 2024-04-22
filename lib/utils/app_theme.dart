@@ -12,10 +12,7 @@ class AppTheme {
       primary: Color(0xFF52A0FF),
       secondary: Color(0xFF006AF5),
     ),
-    appBarTheme: const AppBarTheme(
-      foregroundColor: Colors.white,
-      backgroundColor: Color(0xFF52A0FF)
-    )
+    
   );
 
   static final ThemeData darkTheme = ThemeData(

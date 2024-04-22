@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zalo_clone_flutter/components/appbar/my_appbar.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
@@ -10,10 +11,8 @@ class RegisterPage extends StatefulWidget {
 class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Đăng ký"),
-      ),
+    return const Scaffold(
+      appBar: MyAppbar(title: "Đăng ký")
     );
   }
 }
